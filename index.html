@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.js"></script>
+    <script type="text/javascript" src="js/Metodos.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container" style="background-color:rgb(194, 193, 193)">
+    <div class="jumbotron text-center">
+      <h1>Registro de Estudiantes</h1>
+    </div>
+    <form id="miForm" role="form">
+      <div class="form-group text-center">
+        <label for="Codigo">Codigo:</label>
+      <input type="text" name="nombre" id="Codigo" class="form-control text-center" required>
+      </div>
+      <div class="form-group text-center">
+        <label for="Nombre">Nombre:</label>
+      <input type="text" name="nombre" id="Nombre" class="form-control text-center" required>
+      </div>
+      <div class="form-group text-center">
+        <label for="Nota">Nota:</label>
+      <input type="text" name="nota" id="Nota" class="form-control text-center" required>
+      </div>
+    </form>
+    <input id="botonRegistrar" type="button" name="boton" value="Registrar Estudiante" class="btn btn-default col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
+    <input id="botonMostrarPromedio" type="button" name="boton" value="Mostrar Promedio" class="btn btn-default col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
+    <input id="botonMostarMayor" type="button" name="boton" value="Mostrar Nota Mayor" class="btn btn-default col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
+    <input id="botonMostrarMenor" type="button" name="boton" value="Mostrar Nota Menor" class="btn btn-default col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
+    <br><br>
+    <h2 class="text-center">Listado De Estudiantes</h2>
+    <div class="text-center">
+    <p id="p1" class="text-center"></p>
+  </div>
+    </div>
+  </body>
+</html>
